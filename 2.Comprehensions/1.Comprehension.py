@@ -73,3 +73,9 @@ lista2 = ['Pelayo', 30, 'Asturias']
 
 mi_dict = {i:j for i,j in zip(lista1, lista2)}
 print(mi_dict)
+
+list1 = ['Francisco', 'Paula', ' Duvan', 'Jaime']
+list2 = ['Programmer', 'Comunicadora', 'Ingeniero', 'Tecnico']
+
+prof = {i : j for (i, j) in zip(list1, list2)}
+print(prof)
